@@ -16,7 +16,7 @@ contract Cryptomancer is Ownable {
         feePercentage = percent;
     }
     
-    function send(address[] memory addresses) public payable {
+    function deposit(address[] memory addresses) public payable {
         uint256 fee = (msg.value * uint256(feePercentage * 100)) / uint256(10000); 
         payable(owner()).transfer(fee);
         
