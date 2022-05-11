@@ -17,5 +17,8 @@
     "ethereum-waffle": "^3.3.0",
     "ethers": "^5.1.0",
     "hardhat": "^2.1.2"
+  },
+  "dependencies": {
+    "@opengsn/contracts": "^2.2.6"
   }
 }
